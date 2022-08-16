@@ -1,0 +1,427 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* *gobal css code here */
+.container{
+    width: 1140px;
+    margin:0px auto;
+}
+
+.row{
+    width: 100%;
+    float: left;
+}
+.col-lg-3{
+    width: 25%;
+    float: left;
+}
+
+.col-lg-6{
+    width: 50%;
+    float: left;
+}
+.col-lg-9{
+    width: 75%;
+    float: left;
+}
+.col-lg-12{
+    width: 100%;
+    float: left;
+}
+
+/* header code start */
+
+.header{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    border: 1px solid #777;
+}
+
+.logo{
+    width: 100px;
+    display: block;
+}
+.logo img{
+    width: 100%;
+}
+header .navbar{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+
+header .navbar li{
+    list-style: none;
+    display: inline-block;
+}
+header .navbar li a{
+    display: block;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #777;
+    font-weight: 600;
+    margin: 15px 0px 0px 25px;
+    transition: 1sec;
+}
+
+header .navbar li a:hover , .header .navbar li a:focus{
+color: #1870ff;
+}
+
+/* online section code  start*/
+
+.online-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+}
+
+.innner-online{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.innner-online h1{
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 700;
+    color: #3f3D56;
+    margin: 0px 0px;
+}
+.innner-online h1 span{
+    color: #008aff;
+}
+.innner-online p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #777;
+    margin: 0px 0px;
+}
+.innner-online .banner-img{
+    width: 50%;
+}
+
+/* sucessful section code  start*/
+
+.sucessful-section{
+    width: 100%;
+    float: left;
+    padding: 20px 0px 60px;
+}
+
+.inner-left{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.inner-left h2{
+    font-size: 56px;
+    line-height: 66px;
+    color:#F15767;
+    font-weight: 700;
+    margin: 0px 20px 0px 0px;
+}
+
+.inner-left p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #777;
+    margin: 0px 20px 0px 0px;
+  
+}
+.project{
+    font-size: 56px;
+    line-height: 66px;
+    color:#3F3D56;
+    font-weight: 700;
+    margin: 0px 0px 0px 20px;
+}
+
+/* feature section code  start*/
+.feature-section{
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+}
+.inner-feature{
+    width: 80%;
+    float: left;
+    padding: 40px 30px;
+}
+.inner-feature h4{
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+color:#3f3D56;
+margin: 10px 0px;
+}
+.inner-feature p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #777;
+    margin: 0px 20px 0px 0px;
+}
+
+
+.inner-feature img{
+    width: 100%;
+    height: 170px;
+}
+.cl1{
+    background-color: #ECDDCF;
+}
+
+/* footer  code start */
+
+
+.footer{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    text-align: center;
+    background: #1870ff;;
+}
+.footer p{
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color:#f0f0f0;
+}
+
+.footer p a{
+    font-weight: 700;
+    letter-spacing: 3px;
+color: #fff;
+}
+
+
+
+/* overview section code start */
+.over-view{
+    width: 100%;
+    float: left;
+}
+
+.over-view .img-fluid{
+    width: 100%;
+    margin: 15px 0px;
+    border: 2px solid #000;
+}
+
+.over-view  h1{
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.over-view  p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0px 0px 10px;
+   
+}
+
+/* landing section code start */
+
+.landings{
+    width: 100%;
+    float: left;
+}
+
+.landings .img-fluid{
+    width: 100%;
+    margin: 15px 0px;
+    border: 2px solid #000;
+}
+
+.landings   h1{
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.landings   p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0px 0px 10px;
+   
+}
+/* pages section code start */
+
+.pages{
+    width: 100%;
+    float: left;
+}
+
+.pages .img-fluid{
+    width: 100%;
+    margin: 15px 0px;
+    border: 2px solid #000;
+}
+
+.pages h1{
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.pages  p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0px 0px 10px;
+   
+}
+
+/* app section code start */
+
+.app{
+    width: 100%;
+    float: left;
+}
+
+.app .img-fluid{
+    width: 100%;
+    margin: 15px 0px;
+    border: 2px solid #000;
+}
+
+.app h1{
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.app  p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0px 0px 10px;
+   
+}
+
+
+/* doc section code start */
+
+
+.doc{
+    width: 100%;
+    float: left;
+}
+
+.doc .img-fluid{
+    width: 100%;
+    margin: 15px 0px;
+    border: 2px solid #000;
+}
+
+.doc h1{
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.doc  p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0px 0px 10px;
+   
+}
+/* css media quries */
+
+
+
+@media (min-width: 279px) and (max-width: 320px) {
+    .container{
+        width: 90%;
+        margin:0px auto;
+    }
+    
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-3{
+        width: 100%;
+        float: left;
+    }
+    
+    .col-lg-6{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-9{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-12{
+        width: 100%;
+        float: left;
+    }
+   
+    
+  }
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+ 
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }
+
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+ 
+  
+
+  @media (min-width: 768px) and (max-width: 1024px)  {
+  
+    /* CSS */
+    
+  }
+  
+  
+
